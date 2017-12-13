@@ -1,0 +1,248 @@
+body {
+	background-image: url("../images/Background pattern.jpg");
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+header {
+	background-color: #ffffff;
+	border-bottom: 3px solid #cccccc;
+	display: block;
+	overflow: auto;
+}
+#headerw {
+	width: 960px;
+	margin: auto;
+	position: relative;
+}
+#name {
+	float:left;
+	display: block;
+	background-color: #4aaaa5;
+	padding: 40px;
+	border-radius: 3%;
+	color: #ffffff;
+	font-size: 240%;
+}
+#name:hover {
+	text-shadow: 5px 1px #191970;
+}
+
+ul.pages {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float:right;
+    overflow: hidden;
+    padding: 40px 20px;
+}
+ul.pages li {
+    display: inline-block;
+    border-right: 2px dotted #cccccc;
+    font-size: 150%;
+    text-align: center;
+   }
+   
+ul.pages li a {
+   padding: 10px;
+   color: #cccccc;
+}
+ul.pages li:last-child {
+ border-right: 0px !important;
+    }
+
+ul.pages li a:hover {
+	color: #ffffff;
+	background-color: #DCDCDC;
+	box-shadow: 2px 1px #87CEEB;
+	cursor: pointer;
+}
+#middle-section {
+	width: 960px;
+	margin: 40px auto 85px auto;
+
+}
+#left-section {
+	float: left;
+	background-color: #ffffff;
+	width: 608px;
+	border: 2px solid #dddddd;
+	display: block;
+	padding: 20px;
+}
+#aboutme {
+	border-bottom: 5px solid #cccccc;
+}
+h1 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 20px;
+	font-size: 240%;
+}
+#pic {
+	width: 200px;
+	height: auto;
+	float: left;
+	margin: 10px;
+	position: relative;
+	border: 2px solid #cccccc;
+}
+#pic:hover {
+	border: 2px solid #4aaaa5;
+}
+#par {
+	text-indent: 30px;
+	padding: 10px 5px;
+}
+p {
+	font-size: 120%;
+	padding: 3px;
+}
+#aside {
+	float: right;
+	overflow: auto;
+	width: 248px;
+	background-color: #ffffff;
+	padding: 10px;
+	border: 2px solid #dddddd;
+	font-size: 130%;
+}
+h4 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 10px;
+	border-bottom: 3px solid #cccccc;
+	text-align: center;
+	font-size: 130%;
+}
+.png {
+	width: 58px;
+	height: auto;
+	border: 2px solid #cccccc;
+	border-radius: 15%;
+}
+.png:hover {
+	border: 2px solid #4aaaa5;
+	border-radius: 35%;
+}
+
+ul.icons {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.icons li {
+	float: left;
+	padding: 10px;
+
+}
+ul.icons li a:hover {
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+footer {
+	background-color: #666666;
+	border-top: 3px solid #4aaaa5;
+	position: fixed;
+	display: block;
+	bottom: 0;
+	text-align: center;
+	color: #ffffff;
+	width: 100%;
+	padding: 15px 0px;
+}
+
+/*Third page CSS*/
+
+#contactme {
+	border-bottom: 5px solid #cccccc;
+	margin-bottom:20px;
+}
+.ct {
+	font-size: 150%
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 10px;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+input[type=text]:focus {
+    border: 3px solid #4aaaa5;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid #cccccc;
+}
+#msg {
+	height:200px;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    border: 2px solid #191970;
+}
+
+/*Second page CSS*/
+
+#portfolio {
+	border-bottom: 5px solid #cccccc;
+	margin-bottom: 20px;
+}
+.blocks {
+	border: 2px solid #cccccc;
+	position: relative;
+	float: left;
+	width: 250px;
+	margin-right: 50px;
+}
+.blocks:hover {
+	border: 2px solid #4aaaa5;
+	cursor: pointer;
+}
+.pictures {
+	width: 250px;
+}
+.caption {
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	padding: 20px 0px;
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 130%;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
