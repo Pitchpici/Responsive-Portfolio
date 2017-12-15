@@ -33,7 +33,7 @@ ul.pages {
     padding: 0;
     float:right;
     overflow: hidden;
-    padding: 40px 20px;
+    padding: 40px 0px 40px 20px;
 }
 ul.pages li {
     display: inline-block;
@@ -48,6 +48,7 @@ ul.pages li a {
 }
 ul.pages li:last-child {
  border-right: 0px !important;
+ padding-right: 0px;
     }
 
 ul.pages li a:hover {
@@ -77,6 +78,7 @@ h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	padding: 20px;
 	font-size: 240%;
+	font-weight: bold;
 }
 #pic {
 	width: 200px;
@@ -113,6 +115,7 @@ h4 {
 	border-bottom: 3px solid #cccccc;
 	text-align: center;
 	font-size: 130%;
+	font-weight: bold;
 }
 .png {
 	width: 58px;
@@ -232,8 +235,244 @@ input[type=submit]:hover {
 	text-align: center;
 }
 
+/*MEDIA QUERIES - About Mes*/
+
+@media screen and (max-width: 980px)
+{
+
+header {
+	width: 100%;
+}
+#headerw {
+	width: 75%;
+}
+#name {
+	border-radius: 0%;
+	width: 30%;
+	font-size: 200%;
+}
+ul.pages {
+	width: 45%;
+	padding: 40px 0px;
+	float:right;
+	margin-right: -30px;
+}
+
+#middle-section {
+	width: 75%;
+	margin: 40px auto 85px auto;
+}
+#left-section { 
+	width: 55%;
+}
+#aside {
+	width: 30%;
+}
+#pic {
+	width: 100%;
+	margin: 20px 0px;
+}
+.png {
+	width: 50px;
+}
+#par {
+	text-indent: 0px;
+}
+ul.icons {
+	padding-left: 15px;
+}
+ul.icons li {
+	float: left;
+	padding: 5px;
+}
+
+/*Portfolio*/
+
+.blocks {
+	width: 100%;
+	margin: 20px auto;
+}
+.pictures {
+	width: 100%;
+}
+h4 {
+	font-size: 100%;
+	padding: 20px;
+}
+
+/*Contact - all set*/
+
+}
+
+/*TABLET SCREEN*/
+
+@media screen and (max-width: 768px)
+{
+header {
+	position: static;
+	width:100%;
+	overflow: none;
+	clear: both;
+	max-width: 768px;
+}
+#headerw {
+	width: 90%;
+}
+#name {
+	border-radius: 0%;
+}
+ul.pages {
+	width: 45%;
+	padding: 40px 0px;
+	float:right;
+	margin-right: 10px;
+}
+
+#middle-section {
+	width: 90%;
+	margin: 30px auto;
+	padding: none;
+	position: relative;
+}
+#left-section { 
+	width: 90%;
+
+}
+#pic {
+	width: 45%;
+	margin: 0px 5% 0px 0px;
+}
+#par {
+	padding: 10px 0px;
+	width: auto;
+}
+#aside {
+	width:95%;
+	margin: 30px auto 60px auto;
+	float: left;
+	padding: 2px;
+}
+h4 {
+	text-align: left;
+}
+
+/*PORTFOLIO*/
+
+.blocks {
+	width: 45%;
+	margin-right: 30px;
+	margin-bottom: 40px;
+	border: none;
+	/*padding: 0px 15px;*/
+}
+.blocks:hover {
+	border: none;
+}
+.pictures {
+	width: 100%;
+}
+/*correct margin-right please*/
+
+/*Contact - all set*/
+
+}
 
 
+
+/*MOBILE PHONE SCREEN*/
+
+
+
+@media screen and (max-width: 640px)
+{
+
+header {
+	position: static;
+	width:100%;
+	overflow: none;
+	clear: both;
+	max-width: 640px;
+}
+#headerw {
+	width: 100%;
+}
+
+#name {
+	width: 100%;
+	border-radius: 0%;
+	text-align: center;
+	float: none;
+	padding: 40px 0px;
+}
+ul.pages {
+	width: 100%;
+	float: none;
+	margin: auto;
+}
+ul.pages li {
+	width: 30%;
+    display: inline-block;
+    border-right: 2px dotted #cccccc;
+    font-size: 150%;
+    text-align: center;
+   }
+#middle-section {
+	width: 600px;
+	margin: 30px 0px 0px 30px;
+	padding-right: 0px;
+}
+#left-section { 
+	width: 90%;
+	padding: 3%;
+	margin: auto;
+}
+#pic {
+	width: 100%;
+	margin-left: -2px;
+	margin-bottom: 20px;
+	padding: 0px;
+}
+#par {
+	padding: 20px 0px;
+	width: auto;
+	margin: auto;
+}
+p {
+	width: 100%;
+	padding-top: 10px;
+	line-height: 1.5;
+}
+#aside {
+	width:96%;
+	margin: 30px auto 90px auto;
+	float: left;
+	padding: 0px;
+}
+h4 {
+	text-align: left;
+}
+
+/*Portfolio*/
+
+.blocks {
+	width: 100%;
+	margin-right: 0px;
+	margin-bottom: 40px;
+}
+.pictures {
+	width: 100%;
+}
+.caption {
+	position: absolute;
+	margin-bottom: 30px;
+	width: 100%;
+	padding: 30px 0px;
+}
+ 
+/*Contact - all set*/
+
+
+}
 
 
 
