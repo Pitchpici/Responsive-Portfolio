@@ -215,6 +215,7 @@ input[type=submit]:hover {
 	position: relative;
 	float: left;
 	width: 250px;
+	height: 300px;
 	margin-right: 50px;
 }
 .blocks:hover {
@@ -223,6 +224,7 @@ input[type=submit]:hover {
 }
 .pictures {
 	width: 250px;
+	height: 300px;
 }
 .caption {
 	position: absolute;
